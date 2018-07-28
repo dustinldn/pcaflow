@@ -32,3 +32,10 @@ pcaflow/extern/libviso2/python/libvisomatcher.so
 pcaflow/extern/libviso2/readme.txt
 pcaflow/extern/libviso2/src/
 pcaflow/extern/libvisomatcher.so
+
+# add build and temporary folder
+gco_src/
+build/
+pcaflow/extern/gco_python/gco_python.cpp
+pcaflow/extern/gco_python/pygco.so
+*.zip
