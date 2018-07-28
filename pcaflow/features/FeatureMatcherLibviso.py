@@ -194,7 +194,7 @@ class FeatureMatcherLibviso:
 
         j=0
         for i,k in enumerate(kp0):
-            b = xbins * (k[1] // bh) + k[0]//bw
+            b = int(xbins * (k[1] // bh) + k[0]//bw)
             if not bin_occupied[b]:
                 bin_occupied[b]=1
                 kp0_[j,:] = kp0[i,:] 
